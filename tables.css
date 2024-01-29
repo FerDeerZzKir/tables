@@ -1,0 +1,56 @@
+/* Стили для body */
+body {
+    background-image: url('tablesBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Шрифт */
+    background-color: #f8f8f8; /* Цвет фона */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.8); /* Цвет фона таблицы с прозрачностью */
+}
+
+/* Стили для заголовка */
+h1 {
+    color: black; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+/* Стили для таблицы */
+table {
+    width: 80%; /* Ширина таблицы */
+    margin: 20px auto; /* Центрирование таблицы */
+    border-collapse: collapse; /* Сворачиваем границы */
+}
+
+/* Стили для заголовков столбцов */
+/* Стили для заголовков столбцов */
+th {
+    background-color: #555; /* Серый цвет фона */
+    color: white; /* Цвет текста */
+    font-weight: bold; /* Жирный текст */
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: center; /* Выравнивание текста */
+
+}
+
+
+/* Стили для ячеек */
+td {
+    border: 1px solid #ddd; /* Границы ячеек */
+    padding: 10px; /* Отступы внутри ячеек */
+    font-size: 20px
+}
+
+
+/* Стили для наведения на строку */
+tr:hover {
+    background-color: #a5f0bf; /* Цвет фона */
+}

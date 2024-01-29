@@ -1,0 +1,41 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover; /* Растянуть изображение на всю ширину и высоту экрана */
+    background-position: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.submitButton {
+    width: 50vw;
+    height: 15vh;
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    border: none;
+    color: white;
+    margin-top : 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    margin: 15px auto;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    outline: none;
+    font-size: 3vw;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.submitButton:hover {
+    background-color: #0E995D;
+}
